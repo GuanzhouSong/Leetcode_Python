@@ -7,11 +7,10 @@ class Solution:
     reachable = 0
     n = len(nums)
     i = 0
-    while i < n:
+    for i in range(0, n, 1):
       if i > reachable:
         return False
       reachable = max(reachable,i+nums[i])
-      i+=1
     return True
 
 nums = [2,0]
