@@ -1,10 +1,3 @@
-l = []
-matrix = [
-  [0, 2, 3],
-  [5, 0, 8],
-  [1, 8, 4]
-]
+nums = [1, 1, 1, 2, 2, 3]
 
-for i in matrix:
-  l = l + i
-print(l)
+print(nums.count(1))
