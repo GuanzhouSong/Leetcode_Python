@@ -69,6 +69,7 @@ class Solution:
       e = max(e, intervals[-1 - len(right)][1])
     return left + [[s, e]] + right
 
+
 s = Solution()
 intervals = [[1, 2], [3, 5], [8, 10], [12, 16]]
 print(s.insertClever(intervals, [5, 7]))

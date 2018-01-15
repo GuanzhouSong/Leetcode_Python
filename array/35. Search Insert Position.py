@@ -24,5 +24,3 @@ class Solution:
   target = 7
   print(searchInsert(0, nums, target))
   print(searchInsert2(0, nums, target))
-
-

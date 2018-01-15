@@ -14,6 +14,7 @@ class Solution:
         current_sum = 0
     return maxnum
 
+
 solution = Solution()
-nums= [-2,1,-3,4,-1,2,1,-5,4]
+nums = [-2, 1, -3, 4, -1, 2, 1, -5, 4]
 print(solution.maxSubArray(nums))

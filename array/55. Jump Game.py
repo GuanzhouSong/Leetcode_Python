@@ -10,9 +10,10 @@ class Solution:
     for i in range(0, n, 1):
       if i > reachable:
         return False
-      reachable = max(reachable,i+nums[i])
+      reachable = max(reachable, i + nums[i])
     return True
 
-nums = [2,0]
+
+nums = [2, 0]
 s = Solution()
 print(s.canJump(nums))

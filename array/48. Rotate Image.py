@@ -11,10 +11,10 @@ class Solution:
   def rotate_45(self, matrix):
     size = len(matrix)
     for i in range(0, len(matrix)):
-      for j in range(0, len(matrix[0])-i):
+      for j in range(0, len(matrix[0]) - i):
         temp = matrix[i][j]
-        matrix[i][j] = matrix[size-1-j][size-1-i]
-        matrix[size-1-j][size-1-i] = temp
+        matrix[i][j] = matrix[size - 1 - j][size - 1 - i]
+        matrix[size - 1 - j][size - 1 - i] = temp
     return matrix
 
   def rotate180(self, matrix):
@@ -27,5 +27,5 @@ class Solution:
 
 
 solution = Solution()
-matrix = [[5,1,9,11],[2,4,8,10],[13,3,6,7],[15,14,12,16]]
+matrix = [[5, 1, 9, 11], [2, 4, 8, 10], [13, 3, 6, 7], [15, 14, 12, 16]]
 print(solution.rotate(matrix))

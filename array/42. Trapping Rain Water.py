@@ -4,4 +4,3 @@ class Solution:
     :type height: List[int]
     :rtype: int
     """
-    

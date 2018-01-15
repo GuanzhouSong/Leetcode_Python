@@ -9,14 +9,14 @@ class Solution:
     while i < n:
       if nums[i] == i + 1 or nums[i] <= 0 or nums[i] > n:
         i += 1
-      elif nums[nums[i]-1] != nums[i]:
+      elif nums[nums[i] - 1] != nums[i]:
         self.swap(nums, i, nums[i] - 1)
       else:
         i += 1
     i = 0
-    while i < n and nums[i] == i+1:
-        i+=1
-    return i+1
+    while i < n and nums[i] == i + 1:
+      i += 1
+    return i + 1
 
   def swap(self, A, i, j):
     temp = A[i]
@@ -25,4 +25,4 @@ class Solution:
 
 
 solution = Solution()
-print(solution.firstMissingPositive(nums=[1,1]))
+print(solution.firstMissingPositive(nums=[1, 1]))
