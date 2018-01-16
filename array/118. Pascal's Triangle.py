@@ -13,6 +13,5 @@ class Solution:
       res.append([temp1[i] + temp2[i] for i in range(len(temp2))])
     return res
 
-
 s = Solution()
 print(s.generate(10))
