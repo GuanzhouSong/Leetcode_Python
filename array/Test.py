@@ -1,3 +1,5 @@
-nums = [1, 1, 1, 2, 2, 3]
-
-print(nums)
+info = ((1, 12345),)
+dic = dict(info)
+k = dic.keys()
+l = list(k)
+print(l[0])
