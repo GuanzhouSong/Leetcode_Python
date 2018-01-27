@@ -1,2 +1,1 @@
-s = set()
-print(s.add(1))
+print(12 % 5)
