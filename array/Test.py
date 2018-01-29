@@ -1,1 +1,2 @@
-print(12 % 5)
+carry = 10
+print(divmod(-123, 10))
