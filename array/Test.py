@@ -1,2 +1,2 @@
-carry = 10
-print(divmod(-123, 10))
+string = "abcdefg"
+print(string.find("t"))
