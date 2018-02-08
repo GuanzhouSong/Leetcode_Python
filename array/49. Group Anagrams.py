@@ -6,6 +6,11 @@ class Solution:
     """
     dic = dict()
     for s in strs:
+      c = sorted(list(s))
+      val = dic.get(tuple(c), [])
+      val += [s]
+      dic[tuple(c)] = val
+    return list(dic.values())
 
 
 s = Solution()
