@@ -7,7 +7,7 @@ class Solution:
     reachable = 0
     n = len(nums)
     i = 0
-    for i in range(0, n, 1):
+    for i in range(n):
       if i > reachable:
         return False
       reachable = max(reachable, i + nums[i])
