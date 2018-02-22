@@ -17,6 +17,6 @@ class Solution:
 
 
 s = Solution()
-nums = [0, 0]
+nums = [0, 1, 2, 0]
 s.sortColors(nums)
 print(nums)
