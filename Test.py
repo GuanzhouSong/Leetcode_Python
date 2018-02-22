@@ -1,3 +1,1 @@
-l = ["eat", "ate"]
-s = [set(x) for x in l]
-print(s.count())
+print(3**2)
