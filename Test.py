@@ -1,1 +1,3 @@
-print([[0] * 10] * 3)
+l = [1, 2, 3]
+l.reverse()
+print(l)
