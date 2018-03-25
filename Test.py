@@ -1,1 +1,2 @@
-print(0 ^ 0)
+s = "hello"
+print(s[1:2])
