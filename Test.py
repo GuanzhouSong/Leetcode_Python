@@ -1,2 +1,1 @@
-s = "hello"
-print(s[1:2])
+print(26 % 26)
