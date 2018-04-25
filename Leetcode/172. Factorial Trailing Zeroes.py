@@ -8,4 +8,5 @@ class Solution:
     mul = 5
     while mul <= n:
       res += n // 5
+      n = n // 5
     return res
