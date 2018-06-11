@@ -20,7 +20,7 @@ class Solution:
     if root.right is not None:
       r = self.helper(root.right) + 1
     return abs(l - r) <= 1 and self.isBalanced(root.left) and self.isBalanced(
-      root.right)
+        root.right)
 
   def helper(self, root):
     if root is None:

@@ -17,5 +17,6 @@ class Solution:
         low = mid
     return None
 
-s=Solution()
+
+s = Solution()
 print(s.mySqrt(8))

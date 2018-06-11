@@ -9,7 +9,7 @@ class Solution:
     """
     num = [str(x) for x in nums]
     num.sort(key=functools.cmp_to_key(
-      lambda x, y: int(str(x) + str(y)) - int(str(y) + str(x))), reverse=True)
+        lambda x, y: int(str(x) + str(y)) - int(str(y) + str(x))), reverse=True)
     return ''.join(num).lstrip('0') or '0'
 
 
